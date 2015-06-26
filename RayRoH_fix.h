@@ -3,4 +3,4 @@
 #define DEMO_BUILD //Для пробных правок
 #define NOT_RAIN_HPP //Для зимних модов
 // #define NO_PDA //Отключаем ПДА
-// #define NO_CONSOLE //Отключаем консоль
+// #define NO_CONSOLE //Отключаем консоль 
