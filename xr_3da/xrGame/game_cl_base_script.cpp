@@ -1,9 +1,9 @@
 #include "pch_script.h"
 #include "game_cl_base.h"
 
-using namespace luabind; 
-#pragma optimize("s",on)
+using namespace luabind;
 
+#pragma optimize("s",on)
 void SZoneMapEntityData::script_register(lua_State *L)
 {
 	module(L)
