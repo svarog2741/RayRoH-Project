@@ -27,14 +27,14 @@ struct STestCallbackPars
 };
 
 
-float 	STestCallbackPars:::calback_friction_factor					=	0.0f	;
-float 	STestCallbackPars:::depth_to_use_force						=	0.3f	;
-float 	STestCallbackPars:::callback_force_factor					=	10.f	;
-float 	STestCallbackPars:::depth_to_change_softness_pars			=	0.00f	;
-float 	STestCallbackPars:::callback_cfm_factor						=	world_cfm*0.00001f;
-float 	STestCallbackPars:::callback_erp_factor						=	1.f		;
-float	STestCallbackPars:::decrement_depth							=	0.f		;
-float	STestCallbackPars:::max_real_depth							=	0.2f	;
+float 	STestCallbackPars::calback_friction_factor					=	0.0f	;
+float 	STestCallbackPars::depth_to_use_force						=	0.3f	;
+float 	STestCallbackPars::callback_force_factor					=	10.f	;
+float 	STestCallbackPars::depth_to_change_softness_pars			=	0.00f	;
+float 	STestCallbackPars::callback_cfm_factor						=	world_cfm*0.00001f;
+float 	STestCallbackPars::callback_erp_factor						=	1.f		;
+float	STestCallbackPars::decrement_depth							=	0.f		;
+float	STestCallbackPars::max_real_depth							=	0.2f	;
 struct STestFootCallbackPars
 {
 	static float calback_friction_factor			;
@@ -48,14 +48,14 @@ struct STestFootCallbackPars
 };
 
 
-float 	STestFootCallbackPars:::calback_friction_factor					=	0.3f	;
-float 	STestFootCallbackPars:::depth_to_use_force						=	0.3f	;
-float 	STestFootCallbackPars:::callback_force_factor					=	10.f	;
-float 	STestFootCallbackPars:::depth_to_change_softness_pars			=	0.00f	;
-float 	STestFootCallbackPars:::callback_cfm_factor						=	world_cfm*0.00001f;
-float 	STestFootCallbackPars:::callback_erp_factor						=	1.f		;
-float	STestFootCallbackPars:::decrement_depth							=	0.05f	;
-float	STestFootCallbackPars:::max_real_depth							=	0.2f	;
+float 	STestFootCallbackPars::calback_friction_factor					=	0.3f	;
+float 	STestFootCallbackPars::depth_to_use_force						=	0.3f	;
+float 	STestFootCallbackPars::callback_force_factor					=	10.f	;
+float 	STestFootCallbackPars::depth_to_change_softness_pars			=	0.00f	;
+float 	STestFootCallbackPars::callback_cfm_factor						=	world_cfm*0.00001f;
+float 	STestFootCallbackPars::callback_erp_factor						=	1.f		;
+float	STestFootCallbackPars::decrement_depth							=	0.05f	;
+float	STestFootCallbackPars::max_real_depth							=	0.2f	;
 template<class Pars>
 void TTestDepthCallback (bool& do_colide,bool bo1,dContact& c,SGameMtl* material_1,SGameMtl* material_2)
 {

@@ -1,5 +1,5 @@
 #pragma once
-#iclude "../../RayRoH_fix.h"
+#include "../../RayRoH_fix.h"
 enum	EGameActions
 {
 	kLEFT,

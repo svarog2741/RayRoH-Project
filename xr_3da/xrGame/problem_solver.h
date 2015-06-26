@@ -90,9 +90,9 @@ private:
 	IC		_edge_value_type			estimate_edge_weight_impl(const _index_type	&vertex_index, Bool2Type<false>) const { return estimate_edge_weight_impl(vertex_index); }
 	IC		_edge_value_type			estimate_edge_weight_impl(const _index_type	&vertex_index, Bool2Type<true>) const { return estimate_edge_weight_impl(vertex_index, true); }
 
-	IC		_edge_value_type			estimate_edge_weight_impl<true>(const _index_type	&vertex_index) const {return estimate_edge_weight_impl(vertex_index,true);}
+//	IC		_edge_value_type			estimate_edge_weight_impl<true>(const _index_type	&vertex_index) const {return estimate_edge_weight_impl(vertex_index,true);}
 
-	IC		_edge_value_type			estimate_edge_weight_impl(const _index_type	&vertex_index) const;
+//	IC		_edge_value_type			estimate_edge_weight_impl(const _index_type	&vertex_index) const;
 	IC		_edge_value_type			estimate_edge_weight_impl(const _index_type	&vertex_index, bool) const;
 
 protected:
