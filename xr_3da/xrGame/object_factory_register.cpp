@@ -276,7 +276,7 @@ void CObjectFactory::register_classes	()
 	ADD(CWeaponBinoculars		,CSE_ALifeItemWeaponMagazined	,CLSID_OBJECT_W_BINOCULAR		,"wpn_binocular");
 	ADD(CWeaponShotgun			,CSE_ALifeItemWeaponShotGun		,CLSID_OBJECT_W_SHOTGUN			,"wpn_shotgun");
 	ADD(CWeaponSVD, CSE_ALifeItemWeaponMagazined, CLSID_OBJECT_W_SVD, "wpn_svd");
-	ADD(CWeaponSVD_n, CSE_ALifeItemWeaponMagazined, CLSID_OBJECT_W_SVD, "wpn_svd");
+//	ADD(CWeaponSVD_n, CSE_ALifeItemWeaponMagazined, CLSID_OBJECT_W_SVD, "wpn_svd");
 	ADD(CWeaponSVU, CSE_ALifeItemWeaponMagazined, CLSID_OBJECT_W_SVU, "wpn_svu");
 	ADD(CWeaponRPG7				,CSE_ALifeItemWeaponMagazined	,CLSID_OBJECT_W_RPG7			,"wpn_rpg7");
 	ADD(CWeaponVal				,CSE_ALifeItemWeaponMagazined	,CLSID_OBJECT_W_VAL				,"wpn_val");
@@ -389,7 +389,7 @@ void CObjectFactory::register_classes	()
 	ADD(CWeaponBM16				,CSE_ALifeItemWeaponShotGun		,TEXT2CLSID("WP_BM16")			,"wpn_bm16_s");
 	ADD(CWeaponGroza			,CSE_ALifeItemWeaponMagazinedWGL, TEXT2CLSID("WP_GROZA")		, "wpn_groza_s");
 	ADD(CWeaponSVD				, CSE_ALifeItemWeaponMagazined, TEXT2CLSID("WP_SVD")			, "wpn_svd_s");
-	ADD(CWeaponSVD_n			, CSE_ALifeItemWeaponMagazined, TEXT2CLSID("WP_SVD_n")			, "wpn_svd_s");
+//	ADD(CWeaponSVD_n			, CSE_ALifeItemWeaponMagazined, TEXT2CLSID("WP_SVD_n")			, "wpn_svd_s");
 	ADD(CWeaponHPSA				,CSE_ALifeItemWeaponMagazined	,TEXT2CLSID("WP_HPSA")			,"wpn_hpsa_s");
 	ADD(CWeaponKnife			,CSE_ALifeItemWeapon			,TEXT2CLSID("WP_KNIFE")			,"wpn_knife_s");
 	ADD(CWeaponPM				,CSE_ALifeItemWeaponMagazined	,TEXT2CLSID("WP_PM")			,"wpn_pm_s");
