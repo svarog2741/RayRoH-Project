@@ -56,20 +56,14 @@ enum	EGameActions
 	kSCREENSHOT,
 	kQUIT,
 
-#ifdef NO_CONSOLE
-#else
 	kCONSOLE,
-#endif
 	kINVENTORY,
 	kBUY,
 	kSKIN,
 	kTEAM,
-#ifdef NO_PDA
-#else
 	kACTIVE_JOBS,
 	kMAP,
 	kCONTACTS,
-#endif
 
 	kEXT_1,
 						
